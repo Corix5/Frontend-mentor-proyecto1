@@ -1,0 +1,33 @@
+.icon-success{
+padding: 20px;
+}
+
+.btn-thanks{
+    width: 90%;
+    margin: 200px auto 0 auto; 
+}
+
+.app-thanks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+@media (min-width: 1024px){
+    .app-thanks{
+        width: 550px;
+        height: 550px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+     .icon-success{
+        padding: 0;
+    }
+    .btn-thanks{
+        width: 90%;
+        margin: 0 auto;
+    } 
+}

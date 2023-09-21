@@ -1,0 +1,117 @@
+form{
+    padding: 20px 20px;
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+}
+form label{
+    font-family: 'Roboto-Bold';
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.labels p{
+    font-family: 'Roboto-Bold';
+    color: red;
+    font-size: 15px;
+}
+
+form input{
+    font-family: 'Roboto-Regular';
+    padding: 17px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+form input::placeholder{
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    color: #ccc;
+    padding-left: 30px;
+}
+
+.error-input{
+    border: 1px solid red;
+    background-color: #ffe8e6;
+    color: red;
+}
+
+.error-input::placeholder{
+    color: red;
+}
+
+.btn-form{
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Roboto-Bold';
+    font-size: 16px;
+    color: white;
+    background-color: #232742;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-form:hover{
+    background: rgb(251,84,114);
+    background: linear-gradient(90deg, rgba(251,84,114,1) 38%, rgba(255,100,75,1) 57%);
+    box-shadow: 0px 15px 15px 0px rgba(251, 84, 115, 0.242);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 1024px){
+    form{
+        width: 80%;
+        margin: 0;
+    }
+
+    form input{
+        padding: 10px 30px;
+    }
+
+    .btn-form{
+        padding: 15px;
+    }
+
+    form label{
+        font-size: 12px;
+    }
+
+    .labels p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1440px){
+    form{
+        width: 80%;
+        margin: 0;
+    }
+
+    form input{
+        padding: 17px 30px;
+    }
+
+    .btn-form{
+        padding: 20px;
+    }
+
+    form label{
+        font-size: 15px;
+    }
+
+    .labels p{
+        font-size: 15px;
+    }
+}
